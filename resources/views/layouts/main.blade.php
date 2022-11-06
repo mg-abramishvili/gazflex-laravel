@@ -48,7 +48,7 @@
                 <ul>
                     <li><a href="/filialy">Филиалы</a></li>
                     <li><a href="#">Общие сведения</a></li>
-                    <li><a href="#">История</a></li>
+                    <li><a href="/history">История</a></li>
                     <li><a href="#">Новости</a></li>
                 </ul>
             </div>

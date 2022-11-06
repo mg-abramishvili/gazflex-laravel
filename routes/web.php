@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('filialy', function () {
     return view('filialy');
 });
+
+Route::get('history', function () {
+    return view('history');
+});
