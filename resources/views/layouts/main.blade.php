@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="/css/flickity.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -148,6 +149,8 @@
             © 2022 ООО «Газпром трансгаз Уфа»
         </div>
     </footer>
+
+    <script src="/js/flickity.pkgd.min.js"></script>
 
     <script>
         function dropdownMenu(menuName) {
