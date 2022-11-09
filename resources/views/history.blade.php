@@ -3,28 +3,31 @@
 @section('content')
     <h5 class="title-head mt-0">История</h5>
     <div class="history">
-        <div class="page-slider" data-flickity='{ "pageDots": false }'>
-            <div class="page-slider-item">
-                <img src="/img/history/1.jpg" alt="">
-                <span>Строительство межпоселковых газопроводов. 1980-е</span>
+        <div class="page-sliders">
+            <div class="page-sliders-main">
+                <div class="carousel carousel-main" data-flickity='{ "contain": true, "pageDots": false }'>
+                    <div class="carousel-cell">
+                        <img src="/img/history/1.jpg" alt="">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="/img/history/2.jpg" alt="">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="/img/history/3.jpg" alt="">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="/img/history/4.jpg" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="page-slider-item">
-                <img src="/img/history/2.jpg" alt="">
-            </div>
-            <div class="page-slider-item">
-                <img src="/img/history/3.jpg" alt="">
-            </div>
-        </div>
 
-        <div class="page-slider-mini" data-flickity='{ "asNavFor": ".page-slider", "contain": true, "pageDots": false, "prevNextButtons": false }'>
-            <div class="page-slider-mini-item">
-                <img src="/img/history/1.jpg" alt="">
-            </div>
-            <div class="page-slider-mini-item">
-                <img src="/img/history/2.jpg" alt="">
-            </div>
-            <div class="page-slider-mini-item">
-                <img src="/img/history/3.jpg" alt="">
+            <div class="page-sliders-nav">
+                <div class="carousel carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "percentPosition": false, "groupCells": "100%", "pageDots": false }'>
+                    <div class="carousel-cell" style="background-image: url(/img/history/1.jpg)"></div>
+                    <div class="carousel-cell" style="background-image: url(/img/history/2.jpg)"></div>
+                    <div class="carousel-cell" style="background-image: url(/img/history/3.jpg)"></div>
+                    <div class="carousel-cell" style="background-image: url(/img/history/4.jpg)"></div>
+                </div>
             </div>
         </div>
 
@@ -61,7 +64,7 @@
         <h2 class="title-head title-head-blue mt-0">Создание башкирской системы газопроводов</h2>
         <p>С середины 1950-х и до 1960-х годов в республике были построены еще несколько газопроводов, связавших поставщиков газа — Туймазинский и Шкаповский газовые заводы — с основными потребителями: городами Уфа, Ишимбай, Белебей, Магнитогорским и Белорецким металлургическими комбинатами.</p>
         <p>К началу 1963 года, через 10 лет после своего образования, Уфимское управление обслуживало 1085,7 километров газопроводов, включая магистральный газопровод Кулешовка–Мелекесс–Ульяновск с отводом Алексеевка–ГРС в г. Куйбышеве (ныне г. Самара), переданный Уфимскому УМГ в декабре 1962 года.</p>
-        <p>Одной из самых героических страниц первых десятилетий газовой промышленности страны стало освоение Газлинского газоконденсатного месторождения и строительство первого советского трансконтинентального газопровода Бухара–Урал, связавшего среднеазиатские республики с промышленным Уралом и Башкирией.</p>
+        <!-- <p>Одной из самых героических страниц первых десятилетий газовой промышленности страны стало освоение Газлинского газоконденсатного месторождения и строительство первого советского трансконтинентального газопровода Бухара–Урал, связавшего среднеазиатские республики с промышленным Уралом и Башкирией.</p>
         <p>Протяженность первой очереди магистрали от газового месторождения в Газли до Челябинска составила 1 995 километров, от Газли до Свердловска 2 160 километров.</p>
         <p>После окончания строительства второй нитки газопровода Бухара–Урал правительством страны было принято решение протянуть газовую магистраль до Уфы. И в начале 1966 года началось строительство газопроводов Карталы–Магнитогорск–Стерлитамак и Ишимбай–Уфа общей протяженностью 571 километр.</p>
         <p>Менее чем за 10 месяцев завершилась прокладка трассы, берущей начало от крупнейшего газопровода Бухара–Урал. И в ночь с 25 на 26 октября 1966 года в топках одного из котлов Уфимской ТЭЦ-4, которая расположена возле нефтеперерабатывающих заводов, впервые в Уфе загорелся бухарский газ. В Башкирии началась эпоха природного газа, который пришел на смену мазуту.</p>
@@ -162,6 +165,6 @@
         <p>«Лучшая организация физкультурно-массовой работы»</p>
         <p>«Лучшее предприятие для работающих мам»</p>
         <p>– Победитель в конкурсе ПАО "Газпром" как предприятие, добившееся наилучших показателей в изобретательской</p>
-        <p>деятельности по итогам 2015 года</p>
+        <p>деятельности по итогам 2015 года</p> -->
     </div>
 @endsection

@@ -5,27 +5,45 @@
     <div class="index-news">
         <div class="index-news-item-big">
             <a href="#">
-                <div class="index-news-item-big-image" style="background-image: url(/img/news-6884-27199.jpeg);"></div>
-                <p>В Полянском ЛПУМГ проводятся масштабные ремонтные работы на КС-17</p>
-                <span>24 августа</span>
+                <div class="index-news-item-big-image" style="background-image: url(/img/news-6884-27199.jpg);"></div>
+                <p>«ОДК-УМПО» представляет на Петербургском международном газовом форуме индустриальный двигатель АЛ-31СТ</p>
+                <span>15 сентября</span>
             </a>
         </div>
         <div class="index-news-items-small">
             <div class="index-news-item">
                 <a href="#">
-                    <span>24 августа</span>
+                    <span><i>24</i> авг</span>
                     <p>ООО «Газпром трансгаз Уфа» – в числе лучших обучающих организаций по охране труда</p>
                 </a>
             </div>
             <div class="index-news-item">
                 <a href="#">
-                    <span>22 августа</span>
+                    <span><i>23</i> авг</span>
                     <p>СМИ о газовом рынке (обзор публикаций 22.08.2022)</p>
                 </a>
             </div>
             <div class="index-news-item">
                 <a href="#">
-                    <span>19 августа</span>
+                    <span><i>22</i> авг</span>
+                    <p>В деревню Тутагачево Балтачевского района пришел газ</p>
+                </a>
+            </div>
+            <div class="index-news-item">
+                <a href="#">
+                    <span><i>18</i> авг</span>
+                    <p>ООО «Газпром трансгаз Уфа» – в числе лучших обучающих организаций по охране труда</p>
+                </a>
+            </div>
+            <div class="index-news-item">
+                <a href="#">
+                    <span><i>15</i> авг</span>
+                    <p>СМИ о газовом рынке (обзор публикаций 22.08.2022)</p>
+                </a>
+            </div>
+            <div class="index-news-item">
+                <a href="#">
+                    <span><i>12</i> августа</span>
                     <p>В деревню Тутагачево Балтачевского района пришел газ</p>
                 </a>
             </div>
