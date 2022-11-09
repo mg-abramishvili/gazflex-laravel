@@ -13,3 +13,7 @@ Route::get('filialy', function () {
 Route::get('history', function () {
     return view('history');
 });
+
+Route::get('news', function () {
+    return view('news');
+});

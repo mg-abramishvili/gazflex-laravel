@@ -316,10 +316,10 @@ header:before {
     content: '';
     /* background: rgba(0,45,74,.5)!important; */
     background-image: linear-gradient(-180deg, 
-                        rgba(0, 123, 193, 0.1) 0%, 
-                        rgba(0, 123, 193, 0.15) 40%, 
-                        rgba(0, 123, 193, 0.55) 50%, 
-                        rgba(0, 123, 193, 0.95) 70%);
+                    rgba(0, 123, 193, 0.1) 0%, 
+                    rgba(0, 123, 193, 0.15) 40%, 
+                    rgba(0, 123, 193, 0.55) 50%, 
+                    rgba(0, 123, 193, 0.95) 70%);
     position: absolute;
     top: 0;
     left: 0;
@@ -410,6 +410,79 @@ header:before {
     text-decoration: none;
     border-bottom: 1px solid;
     padding-bottom: 1px;
+}
+
+.news .news-list-item {
+    margin-bottom: 40px;
+}
+.news .news-list-item a {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,123,193,.05);
+    padding: 25px;
+    border-radius: 10px;
+}
+.news .news-list-item-desc span {
+    background-color: rgba(0,123,193,.15);
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+.news .news-list-item-desc {
+    padding-left: 30px;
+}
+.news .news-list-item-desc p {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #777;
+}
+.news .news-list-item-desc .title-head {
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 26px;
+}
+.news .news-list-item-image {
+    width: 25%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    position: relative;
+}
+.news .news-list-item-image:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, 
+                    rgba(0, 123, 193, 0.1) 0%, 
+                    rgba(0, 123, 193, 0.2) 100%);
+}
+.news .news-list-item-desc {
+    width: 75%;
+}
+
+.pager {
+    display: flex;
+    justify-content: center;
+}
+.pager a {
+    background-color: #007bc1;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+.pager a svg {
+    width: 30px;
+    height: 30px;
+    color: #fff;
 }
 
 .index-galleries {
