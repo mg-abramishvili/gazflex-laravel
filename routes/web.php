@@ -21,3 +21,11 @@ Route::get('news', function () {
 Route::get('obs', function () {
     return view('obs');
 });
+
+Route::get('prbez', function () {
+    return view('prbez');
+});
+
+Route::get('prbez-item', function () {
+    return view('prbez-item');
+});

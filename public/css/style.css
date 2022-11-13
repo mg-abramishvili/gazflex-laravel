@@ -21,6 +21,10 @@ body {
     color: #007bc1;
 }
 
+.title-head-lh {
+    line-height: 1.5;
+}
+
 .mt-0 {
     margin-top: 0;
 }
@@ -764,6 +768,73 @@ footer {
 .oglav li a {
     color: #007bc1;
     display: inline-block;
+    border-bottom: 1px solid rgba(0,123,193,.3);
+    padding-bottom: 2px;
+    line-height: 1;
+}
+
+.prbez-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prbez-item {
+    width: calc(50% - 15px);
+    margin-bottom: 25px;
+    
+}
+.prbez-item a {
+    display: flex;
+    align-items: center;
+    height: 105px;
+    border: 1px solid rgb(0 123 193 / 25%);
+    padding: 20px 26px;
+    border-radius: 10px;
+    background-color: rgba(0,123,193,.035);
+    color: #007bc1;
+    font-weight: 700;
+}
+
+.prbez-detail img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.documents-download-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.documents-download-list li {
+    margin-bottom: 35px;
+}
+.documents-download-list li:last-child {
+    margin-bottom: 0;
+}
+.documents-download-list li a {
+    padding-left: 40px;
+    position: relative;
+    display: block;
+}
+.documents-download-list li a:before {
+    content: '';
+    background: url('/img/file-earmark-text.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.documents-download-list li a span {
+    display: inline;
+    color: #007bc1;
     border-bottom: 1px solid rgba(0,123,193,.3);
     padding-bottom: 2px;
     line-height: 1;
