@@ -37,3 +37,7 @@ Route::get('gazeta', function () {
 Route::get('maggaz', function () {
     return view('maggaz');
 });
+
+Route::get('telsp', function () {
+    return view('telsp');
+});
