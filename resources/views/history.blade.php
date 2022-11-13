@@ -23,10 +23,18 @@
 
             <div class="page-sliders-nav">
                 <div class="carousel carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "percentPosition": false, "groupCells": "100%", "pageDots": false }'>
-                    <div class="carousel-cell" style="background-image: url(/img/history/1.jpg)"></div>
-                    <div class="carousel-cell" style="background-image: url(/img/history/2.jpg)"></div>
-                    <div class="carousel-cell" style="background-image: url(/img/history/3.jpg)"></div>
-                    <div class="carousel-cell" style="background-image: url(/img/history/4.jpg)"></div>
+                    <div class="carousel-cell">
+                        <div class="carousel-cell-inner" style="background-image: url(/img/history/1.jpg)"></div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="carousel-cell-inner" style="background-image: url(/img/history/2.jpg)"></div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="carousel-cell-inner" style="background-image: url(/img/history/3.jpg)"></div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="carousel-cell-inner" style="background-image: url(/img/history/4.jpg)"></div>
+                    </div>
                 </div>
             </div>
         </div>

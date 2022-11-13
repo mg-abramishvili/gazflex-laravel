@@ -707,14 +707,19 @@ footer {
     position: relative;
 }
 .carousel-nav .carousel-cell {
-    transform: rotate(-90deg);
     width: 100px;
     height: 100px;
     cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 5px;
+}
+.carousel-nav .carousel-cell .carousel-cell-inner {
     background-size: cover;
     background-position: center center;
-    border-radius: 10px;
-    margin: 0 5px;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
 }
 /* .carousel-nav .carousel-cell.is-nav-selected {
     background: #ED2;
@@ -739,8 +744,8 @@ footer {
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     /* background-color: rgba(0, 123, 193, 0.05);
     padding: 25px;
     border-radius: 12px; */
