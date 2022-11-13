@@ -455,26 +455,63 @@ header:before {
     border-radius: 10px;
     position: relative;
 }
-.news .news-list-item-image:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(-180deg, 
-                    rgba(0, 123, 193, 0.1) 0%, 
-                    rgba(0, 123, 193, 0.2) 100%);
-}
 .news .news-list-item-desc {
     width: 75%;
 }
 
+
+.gazeta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gazeta .gazeta-list-item {
+    margin-bottom: 40px;
+    width: calc(33.3333% - 25px);
+}
+.gazeta .gazeta-list-item a {
+    background-color: rgba(0,123,193,.05);
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+}
+.gazeta .gazeta-list-item-desc span {
+    font-size: 14px;
+    display: block;
+    line-height: 1;
+    color: #777;
+}
+.gazeta .gazeta-list-item-desc {
+    padding-top: 15px;
+    text-align: center;
+}
+.gazeta .gazeta-list-item-desc p {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #777;
+}
+.gazeta .gazeta-list-item-desc .title-head {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.gazeta .gazeta-list-item-image {
+    height: 400px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
 .pager {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .pager a {
     background-color: #007bc1;
@@ -838,4 +875,21 @@ footer {
     border-bottom: 1px solid rgba(0,123,193,.3);
     padding-bottom: 2px;
     line-height: 1;
+}
+
+.ul-list {
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+}
+.ul-list li {
+    margin-bottom: 20px;
+}
+.ul-list li:last-child {
+    margin-bottom: 0;
+}
+.ul-list li:before {
+    content: '—';
+    margin-right: 10px;
+    color: #007bc1;
 }

@@ -73,7 +73,7 @@
                     <li>
                         <a onclick="dropdownMenu('proizvodstvo-menu')" class="li-plus">Производство</a>
                         <ul id="proizvodstvo-menu" style="display: none;">
-                            <li><a href="#">Магистральные газопроводы</a></li>
+                            <li><a href="/maggaz">Магистральные газопроводы</a></li>
                             <li><a href="#">Компрессорные станции</a></li>
                             <li><a href="#">Конкурсы профессионального мастерства</a></li>
                             <li><a href="#">Рационализаторская деятельность</a></li>
@@ -124,7 +124,7 @@
             </div>
 
             <div class="sidebar-block sidebar-block-gazeta">
-                <a href="#">
+                <a href="/gazeta">
                     <img src="/img/gazeta.jpg" alt="">
                     «ГАЗета» № 9 (209) 2022 г
                 </a>

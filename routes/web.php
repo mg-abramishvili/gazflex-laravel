@@ -29,3 +29,11 @@ Route::get('prbez', function () {
 Route::get('prbez-item', function () {
     return view('prbez-item');
 });
+
+Route::get('gazeta', function () {
+    return view('gazeta');
+});
+
+Route::get('maggaz', function () {
+    return view('maggaz');
+});
