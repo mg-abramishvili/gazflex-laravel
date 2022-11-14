@@ -41,3 +41,7 @@ Route::get('maggaz', function () {
 Route::get('telsp', function () {
     return view('telsp');
 });
+
+Route::get('ratd', function () {
+    return view('ratd');
+});

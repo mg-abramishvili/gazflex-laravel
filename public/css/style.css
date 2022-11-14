@@ -838,6 +838,31 @@ footer {
     margin-bottom: 20px;
 }
 
+
+.ratd-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ratd-item {
+    width: calc(50% - 15px);
+    margin-bottom: 25px;
+    
+}
+.ratd-item a {
+    display: flex;
+    align-items: center;
+    height: 105px;
+    border: 1px solid rgb(0 123 193 / 25%);
+    padding: 20px 26px;
+    border-radius: 10px;
+    background-color: rgba(0,123,193,.035);
+    color: #007bc1;
+    font-weight: 700;
+}
+
+
+
 .documents-download-list {
     margin: 0;
     padding: 0;
