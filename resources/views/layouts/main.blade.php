@@ -74,14 +74,14 @@
                         <a onclick="dropdownMenu('proizvodstvo-menu')" class="li-plus">Производство</a>
                         <ul id="proizvodstvo-menu" style="display: none;">
                             <li><a href="/maggaz">Магистральные газопроводы</a></li>
-                            <li><a href="#">Компрессорные станции</a></li>
-                            <li><a href="#">Конкурсы профессионального мастерства</a></li>
+                            <li><a href="/komp">Компрессорные станции</a></li>
                             <li><a href="/ratd">Рационализаторская деятельность</a></li>
                             <li><a href="/prbez">Производственная безопасность</a></li>
                             <li><a href="#">Безопасность дорожного движения</a></li>
                             <li><a href="#">Экология</a></li>
                             <li><a href="#">Система управления рисками и внутреннего контроля</a></li>
                             <li><a href="#">Гражданская защита</a></li>
+                            <li><a href="#">Технологические схемы</a></li>
                         </ul>
                     </li>
                     <li>

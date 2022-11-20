@@ -45,3 +45,7 @@ Route::get('telsp', function () {
 Route::get('ratd', function () {
     return view('ratd');
 });
+
+Route::get('komp', function () {
+    return view('komp');
+});
